@@ -344,13 +344,13 @@ footer {
 }
 @media (max-width: 500px) {
   .form-container {
-    margin-top: 19.5%;
     height: 800px;
   }
 }
 .form-container .form-outline {
   margin: 0 auto;
   width: 30%;
+  min-width: 400px;
   height: 75%;
   background: #F6F7F8;
   border-radius: 10px;
