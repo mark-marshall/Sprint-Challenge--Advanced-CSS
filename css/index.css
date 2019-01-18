@@ -184,9 +184,11 @@ p {
   display: flex;
   width: 25%;
   justify-content: space-between;
+  min-width: 280px;
 }
 @media (max-width: 500px) {
   .heading-and-nav nav {
+    min-width: 75%;
     width: 72%;
     padding-top: 3%;
   }
