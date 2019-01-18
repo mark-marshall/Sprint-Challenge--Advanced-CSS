@@ -329,3 +329,30 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.form-container {
+  margin-top: 6%;
+  height: 800px;
+  background: #23293B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-container .form-outline {
+  margin: 0 auto;
+  width: 30%;
+  height: 75%;
+  background: #F6F7F8;
+  border-radius: 10px;
+}
+.form-container .form-outline .form-area {
+  background: #141721;
+  height: 13%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.form-container .form-outline .form-area h3 {
+  color: #F6F7F8;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 6%;
+}
