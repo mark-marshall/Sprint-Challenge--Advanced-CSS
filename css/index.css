@@ -214,7 +214,7 @@ footer {
 @media (max-width: 500px) {
   .home img {
     width: 100%;
-    margin-top: 18.5%;
+    margin-top: 19%;
   }
 }
 .home .intro h2 {
@@ -337,12 +337,23 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .form-container {
+    margin-top: 19.5%;
+    height: 800px;
+  }
+}
 .form-container .form-outline {
   margin: 0 auto;
   width: 30%;
   height: 75%;
   background: #F6F7F8;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .form-container .form-outline {
+    width: 80%;
+  }
 }
 .form-container .form-outline .form-area {
   background: #141721;
@@ -355,6 +366,12 @@ footer {
   text-align: center;
   font-size: 2.2rem;
   padding: 7% 2% 0 2%;
+}
+@media (max-width: 500px) {
+  .form-container .form-outline .form-area h3 {
+    font-size: 1.7rem;
+    padding-top: 8%;
+  }
 }
 .form-container .form-outline form {
   padding: 5% 8% 0 8%;
@@ -378,11 +395,7 @@ footer {
   width: 80%;
 }
 .form-container .form-outline form input[type="radio"] {
-  color: red;
-}
-.form-container .form-outline form span {
-  font-size: 2rem;
-  color: #F6F7F8;
+  margin: 0 10px;
 }
 .form-container .form-outline form input[type="submit"] {
   background: #141721;
