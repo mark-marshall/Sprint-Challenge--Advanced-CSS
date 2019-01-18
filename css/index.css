@@ -170,6 +170,10 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 1% 0 0.5% 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 @media (max-width: 500px) {
   .heading-and-nav {
@@ -205,10 +209,12 @@ footer {
 }
 .home img {
   border-radius: 5px;
+  margin-top: 12.7%;
 }
 @media (max-width: 500px) {
   .home img {
     width: 100%;
+    margin-top: 18.5%;
   }
 }
 .home .intro h2 {
