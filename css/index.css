@@ -177,6 +177,11 @@ p {
   width: 22%;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .heading-and-nav nav {
+    background: red;
+  }
+}
 .heading-and-nav nav a {
   text-decoration: none;
   color: #454A59;
