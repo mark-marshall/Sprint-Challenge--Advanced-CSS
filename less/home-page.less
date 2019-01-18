@@ -70,6 +70,7 @@
       flex-direction: column;
       justify-content: flex-start;
       padding: 15px;
+      margin-top: 20px;
     }
 
     .walk-text {
@@ -135,6 +136,11 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          border: none;
+          margin-top: 2%;
+        }
       }
     }
   }

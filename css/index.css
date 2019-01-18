@@ -264,6 +264,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     padding: 15px;
+    margin-top: 20px;
   }
 }
 .home .walk .walk-text {
@@ -328,6 +329,12 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img img {
+    border: none;
+    margin-top: 2%;
+  }
 }
 .form-container {
   margin-top: 6%;
