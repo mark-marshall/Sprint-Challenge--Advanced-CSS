@@ -1,1 +1,19 @@
 // Mixins Here
+.flex-column(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-styles(){
+    text-decoration: none;
+    color: @nav-font;
+    font-size: 1.4rem;
+}
+
+.button-styles (@color: @ebony-clay; @border: 5px; @size: 1.6rem; @weight: bold){
+    background: @color;
+    border-radius: @border;
+    font-size: @size;
+    font-weight: @weight;
+}
