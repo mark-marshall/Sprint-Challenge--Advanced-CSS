@@ -291,6 +291,10 @@ footer {
   padding: 3%;
   text-align: center;
 }
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
@@ -301,6 +305,10 @@ footer {
 }
 .home .walk .walk-text .btn:hover {
   background: white;
+  cursor: pointer;
+  color: #23293B;
+}
+.home .walk .walk-text .btn:hover a {
   color: #23293B;
   cursor: pointer;
 }

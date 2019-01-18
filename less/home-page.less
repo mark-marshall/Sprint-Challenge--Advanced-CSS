@@ -95,6 +95,11 @@
         padding: 3%;
         text-align: center;
 
+        a{
+          text-decoration: none; 
+          color: white;
+        }
+
         @media @phone {
           width: 100%;
           padding: 5% 3%;
@@ -104,8 +109,12 @@
 
         &:hover {
           background: white;
-          color: @ebony-clay;
           cursor: pointer;
+          color: @ebony-clay;
+          a {
+            color: @ebony-clay;
+            cursor: pointer;
+          }
 
         }
       }
